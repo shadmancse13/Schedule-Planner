@@ -16,7 +16,7 @@ include('../dist/includes/dbcon.php');
 			$count=mysqli_num_rows($query);		
 			if ($count>0)
 				{
-					echo "<script type='text/javascript'>alert('Subject already added!');</script>";	
+				echo "<script type='text/javascript'>alert('Subject already added!');</script>";	
 				echo "<script>document.location='subject.php'</script>";  
 				}
 			else
